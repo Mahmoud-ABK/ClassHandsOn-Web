@@ -1,0 +1,20 @@
+div {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tabteams th {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    background: lightblue;
+}
+
+.tabteams td {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    background: gray;
+    opacity: 0.8;
+}

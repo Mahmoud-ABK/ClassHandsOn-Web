@@ -14,7 +14,7 @@ public class Team implements Serializable {
 
     @Column(length = 100)
     private String name;
-    @OneToMany(mappedBy = "myteam") // Defines a one-to-many relationship with the Player entity
+    @OneToMany(mappedBy = "myteam",fetch = FetchType.LAZY) // Defines a one-to-many relationship with the Player entity
     private Collection<Player> players; // Collection of players in the team
 
     public Collection<Player> getPlayers() {
